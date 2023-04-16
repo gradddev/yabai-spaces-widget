@@ -4,13 +4,13 @@ Yabai Spaces Widget is a macOS app that adds a widget to your status bar. It wor
 
 <img width="1194" alt="Screenshot 2023-04-16 at 21 44 09" src="https://user-images.githubusercontent.com/4836709/232331557-646f23b4-e36c-4f27-baf1-a56212ba0532.png">
 
-To install Yabai Spaces Widget using Homebrew, run the following command in your terminal:
+To install the widget using Homebrew, run the following command in your terminal:
 
 ```bash
 brew install grad-dev/tap/yabai-spaces-widget
 ```
 
-To ensure that the Yabai Spaces Widget stays up-to-date with the latest information about your spaces and displays, it is recommended that you add the following code snippet to your yabai configuration file (yabairc):
+To ensure that the widget stays up-to-date with the latest information about your spaces and displays, it is recommended that you add the following code snippet to your yabai configuration file (yabairc):
 ```bash
 signals=(
    "space_changed"
@@ -30,4 +30,4 @@ do
 done
 ```
 
-This code adds event listeners to yabai that listen for specific events such as space changes, display additions or removals, and Mission Control events. When any of these events occur, yabai will trigger a command that refreshes the Yabai Spaces Widget using an AppleScript.
+This code adds event listeners to yabai that listen for specific events such as space changes, display additions or removals, and Mission Control events. When any of these events occur, yabai will trigger a command that refreshes the widget using an AppleScript.
