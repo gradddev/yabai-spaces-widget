@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "debug"
+      ],
+      "problemMatcher": [
+        "$swiftc"
+      ],
+      "group": "build",
+      "label": "make: Build Debug YabaiSpacesWidget",
+      "detail": "make debug"
+    },
+    {
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "release"
+      ],
+      "problemMatcher": [
+        "$swiftc"
+      ],
+      "group": "build",
+      "label": "make: Build Release YabaiSpacesWidget",
+      "detail": "make release"
+    }
+  ]
+}

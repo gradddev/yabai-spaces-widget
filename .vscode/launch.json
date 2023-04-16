@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug YabaiSpacesWidget",
+      "program": "${workspaceFolder:yabai-spaces-widget}/.build/debug/Yabai Spaces Widget.app",
+      "args": [],
+      "cwd": "${workspaceFolder:yabai-spaces-widget}",
+      "preLaunchTask": "make: Build Debug YabaiSpacesWidget"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release YabaiSpacesWidget",
+      "program": "${workspaceFolder:yabai-spaces-widget}/.build/release/Yabai Spaces Widget.app",
+      "args": [],
+      "cwd": "${workspaceFolder:yabai-spaces-widget}",
+      "preLaunchTask": "make: Build Release YabaiSpacesWidget"
+    }
+  ]
+}

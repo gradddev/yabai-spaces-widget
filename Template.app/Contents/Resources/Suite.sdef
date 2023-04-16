@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Yabai Spaces">
+<suite name="Yabai Spaces Widget Suite" code="ysws" description="Yabai Spaces Widget Scripts">
+	<command name="refresh" code="yswsrcmd" description="Refresh Yabai Spaces Widget">
+		<cocoa class="YabaiSpacesWidget.RefreshScriptCommand" />
+	</command>
+</suite>
+</dictionary>
