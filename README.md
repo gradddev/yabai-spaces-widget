@@ -7,7 +7,7 @@ Yabai Spaces Widget is a macOS app that adds a widget to your status bar. It wor
 To install the widget using Homebrew, run the following command in your terminal:
 
 ```bash
-brew install grad-dev/tap/yabai-spaces-widget
+brew install gradddev/tap/yabai-spaces-widget
 ```
 
 To ensure that the widget stays up-to-date with the latest information about your spaces and displays, it is recommended that you add the following code snippet to your yabai configuration file (yabairc):
